@@ -32,7 +32,7 @@ public class FrogSimulation
         double w = 0;
 
         for (int i = 0; i < num; i++) {
-            if (simulate) w++;
+            if (simulate()) w++;
         }
 
         return w / num;
